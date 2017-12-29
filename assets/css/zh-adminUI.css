@@ -1,0 +1,78 @@
+
+/*基础样式*/
+html {
+	/*height: 100%;*/
+}
+body {
+	position: relative;
+	/*min-height: 100%;*/
+}
+a {
+	color: #333;
+}
+a:hover {
+	color: #333;
+}
+a:active {
+	color: #333;
+}
+.fl-l {
+	float: left;
+}
+.fl-r {
+	float: right;
+}
+.cl:after, .clearfix:after {
+    content: "\20";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mr-20 {
+	margin-right: 20px;
+}
+/*布局样式*/
+.container-wrapper {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*header部分*/
+.header-wrapper {
+	height: 60px;
+	background: pink;
+}
+.logo {
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+}
+.navbar-title {
+	font-size: 16px;
+	color: #333;
+}
+.user-wrapper .dropdown-toggle {
+	height: 60px;
+	line-height: 60px;
+	cursor: pointer;
+}
+/*侧边栏*/
+.aside-wrapper {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	overflow: auto;
+	background-color: skyblue;
+	border-right: 1px solid #e5e5e5;
+}
