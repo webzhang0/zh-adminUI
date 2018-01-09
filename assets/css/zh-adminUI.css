@@ -46,7 +46,7 @@ a:active {
 /*header部分*/
 .header-wrapper {
 	height: 60px;
-	background: pink;
+	background: #438EB9;
 }
 .logo {
 	display: inline-block;
@@ -58,12 +58,13 @@ a:active {
 }
 .navbar-title {
 	font-size: 16px;
-	color: #333;
+	color: #fff;
 }
 .user-wrapper .dropdown-toggle {
 	height: 60px;
 	line-height: 60px;
 	cursor: pointer;
+	color: #fff;
 }
 /*侧边栏*/
 .aside-wrapper {
@@ -71,8 +72,29 @@ a:active {
 	top: 60px;
 	left: 0;
 	bottom: 0;
-	width: 200px;
+	width: 180px;
 	overflow: auto;
-	background-color: skyblue;
+	background-color: #F2F2F2;
 	border-right: 1px solid #e5e5e5;
+}
+.aside-wrapper .aside-menu dt {
+	position: relative;
+	line-height: 35px;
+	padding-left: 15px;
+	cursor: pointer;
+	border-bottom: 1px solid #e5e5e5;
+	color: #333;
+}
+.menu-dropdown-arrow {
+	position: absolute;
+	top: 8px;
+	right: 15px;
+}
+.aside-menu>dl>dd>ul>li {
+	/*line-height: 35px;*/
+}
+.aside-menu>dl>dd>ul>li>a {
+	display: block;
+	line-height: 35px;
+	padding-left: 28px;
 }
